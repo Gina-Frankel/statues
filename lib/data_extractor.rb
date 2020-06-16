@@ -1,3 +1,5 @@
-def data_extractor(string)
-  ['https://artuk.org/discover/artworks/figurine-of-two-elephants-273650/']
+def extract_links_from_string(string)
+  match = /https:\/\/artuk.org\/discover\/artworks\/.+?\//.match(string)
+  [match.to_s]
 end 
+
