@@ -45,6 +45,16 @@
     				</div>
     			</li>   |     |
 
-| | |
-| | |
-| | |
+| IN               | OUT  |
+| ---------------- | ---- |
+| ['gina']         | gina |
+| ['gina','harry'] | gina<br> harry
+ |
+|         |
+|                  |      |
+|                  |      |
+
+
+
+gina
+harry 
