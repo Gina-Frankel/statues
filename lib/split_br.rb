@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-def split_br(_string)
-  %w[one two]
+def split_br(string)
+  string.split('<br/> ')
 end
