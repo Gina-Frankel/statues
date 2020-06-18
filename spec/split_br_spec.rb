@@ -8,4 +8,9 @@ describe 'split_br' do
     expected = %w[one two]
     expect(split_br(string)).to eq expected
   end
+  it 'splits three from four separated by "<br/> "' do
+    string = 'three<br/> four'
+    expected = %w[three four]
+    expect(split_br(string)).to eq expected
+  end
 end
