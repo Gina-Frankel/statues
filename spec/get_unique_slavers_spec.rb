@@ -13,4 +13,9 @@ describe 'get_unique_slavers' do
     output = %w[John Pete]
     expect(get_unique_slavers(input)).to eq output
   end
+  it 'splits out array elements that have "<br/> " separators' do
+    input = ['John<br/> Dave', 'Pete']
+    output = %w[John Dave Pete]
+    expect(get_unique_slavers(input)).to eq output
+  end
 end
