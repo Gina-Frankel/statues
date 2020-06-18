@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require_relative 'split_br.rb'
 
 def get_unique_slavers(array)
