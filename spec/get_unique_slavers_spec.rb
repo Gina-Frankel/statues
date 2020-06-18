@@ -8,4 +8,9 @@ describe 'get_unique_slavers' do
     output = ['John']
     expect(get_unique_slavers(input)).to eq output
   end
+  it 'returns John and Pete from an array with John and Pete' do
+    input = %w[John Pete]
+    output = %w[John Pete]
+    expect(get_unique_slavers(input)).to eq output
+  end
 end
