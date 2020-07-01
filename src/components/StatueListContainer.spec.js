@@ -9,5 +9,5 @@ it('renders without crashing', () => {
 it("displays the title for the list of statues", ()=> {
   const wrapper = shallow(< StatueListContainer />);
 
-  expect(wrapper.text()).toEqual("Statues")
+  expect(wrapper.text()).toContain("Statues")
 })
