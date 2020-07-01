@@ -1,19 +1,24 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
 import StatueList from "./Statuelist";
-//import StatueListContainer from "./StatueListContainer";
-
 
 it("renders without crashing", () => {
-  shallow (<StatueList />)
+  const MockSlaverStatues = [
+    {
+      statueName: "Edward Colston",
+    },
+  ];
+
+  shallow(<StatueList statue={MockSlaverStatues} />);
 });
 
-it('renders name of statue', () => {
-  const wrapper = shallow (< StatueList />)
+it("renders name of statue", () => {
+  const MockSlaverStatues = [
+    {
+      statueName: "Edward Colston",
+    },
+  ];
+  const wrapper = shallow(<StatueList statue={MockSlaverStatues} />);
 
-  expect(wrapper.text()).toContain("Edward Colston")
-})
-
-
-// const mockStatue = { statueName: "Edward Colston" };
-// shallow(< StatueList statue={mockStatue} />);
+  expect(wrapper.text()).toContain("Edward Colston");
+});
