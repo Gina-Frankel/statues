@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Statuelist extends Component {
+export class StatueList extends Component {
   render() {
     return (
       <div>
@@ -10,4 +10,4 @@ export class Statuelist extends Component {
   }
 }
 
-export default Statuelist
+export default StatueList
