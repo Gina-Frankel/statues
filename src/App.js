@@ -8,7 +8,6 @@ function App() {
       <header className="App-header">
       </header>
       <div>
-        {/* Edward Colston */}
         <StatueListContainer/>
       </div>
     </div>
