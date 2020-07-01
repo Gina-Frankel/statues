@@ -8,3 +8,13 @@ describe('App', () => {
     expect(wrapper.find('div').length).toEqual(1);
   });
 });
+
+describe("Statue list", () => {
+  it ('displays a list of statues', () => {
+    const wrapper = shallow(<App/>);
+    
+    expect(wrapper.text()).toEqual("Edward Colston")
+  
+
+  });
+});
