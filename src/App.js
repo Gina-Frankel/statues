@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ListTitle from './ListTitle.js'
+import StatueListContainer from './StatueListContainer.js'
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
       <header className="App-header">
       </header>
       <div>
-        Edward Colston
-        <ListTitle/>
+        {/* Edward Colston */}
+        <StatueListContainer/>
       </div>
     </div>
   );
