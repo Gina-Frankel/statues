@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ListTitle from './ListTitle.js'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       </header>
       <div>
         Edward Colston
+        <ListTitle/>
       </div>
     </div>
   );
