@@ -8,10 +8,10 @@ it("renders without crashing", () => {
   shallow (<StatueList />)
 });
 
-it('renders statues', () => {
+it('renders name of statue', () => {
   const wrapper = shallow (< StatueList />)
 
-  expect(wrapper.text()).toEqual("Edward Colston")
+  expect(wrapper.text()).toContain("Edward Colston")
 })
 
 
