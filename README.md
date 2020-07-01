@@ -1,3 +1,19 @@
+
+- see our site live at: https://problematic-statues.netlify.app/
+
+## Technologies
+
+| Purpose                      | Technology |
+| ---------------------------- | ---------- |
+| Front-end Framework          | React      |
+| CI / CD                      | circleci   |
+| Deployment                   | netify     |
+| Front-end testing frameworks | Jest       |
+|                              |            |
+|                              |            |
+
+REACT stuff
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
