@@ -5,14 +5,15 @@ import StatueList from "./Statuelist";
 
 
 it("renders without crashing", () => {
-  shallow(< StatueList />);
+  shallow (<StatueList />)
 });
 
-// it('renders statues as a list item' () => {
-//   const wrapper = shallow (< ListContainer />)
+it('renders statues', () => {
+  const wrapper = shallow (< StatueList />)
 
-// })
+  expect(wrapper.text()).toEqual("Edward Colston")
+})
 
 
-//const mockStatue = { statueName: "Edward Colston" };
-//shallow(< ListContainer statue={mockStatue} />);
+// const mockStatue = { statueName: "Edward Colston" };
+// shallow(< StatueList statue={mockStatue} />);
