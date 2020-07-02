@@ -11,7 +11,6 @@ export class StatueList extends Component {
       <li key={item.name}>{item.name}</li>
     ));
 
-    console.log(items);
     return (
       <div>
         <ul>{items}</ul>
