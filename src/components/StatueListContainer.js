@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import StatueList from "./Statuelist";
-import slaverStatueList from "../statues/slavers";
+import slaverStatueList from "./../statues/slavers";
 
 export class StatueListContainer extends Component {
 
