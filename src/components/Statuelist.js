@@ -14,7 +14,6 @@ export class StatueList extends Component {
     console.log(items);
     return (
       <div>
-        <p>{this.props.statue[0].statueName}</p>
         <ul>{items}</ul>
       </div>
     );
