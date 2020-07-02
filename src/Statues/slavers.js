@@ -1,6 +1,9 @@
 const SlaverStatues = [ 
   {
-    statueName: "Edward Colston" 
+    statueName: "Edward Colston"
+  },
+  {
+    statueName: "Joseph Edgar Boehm"
   }
 ]
 
