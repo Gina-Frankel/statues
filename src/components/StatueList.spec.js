@@ -22,3 +22,17 @@ it("renders name of statue", () => {
 
   expect(wrapper.text()).toContain("Edward Colston");
 });
+
+it("renders names of multiple statues", () =>{
+  const MockSlaverStatues = [
+    {
+      statueName: "Edward Colston",
+    },
+    {
+      statueName: "Marquis de Lafayette",
+    }
+  ]
+  const wrapper = shallow (<StatueList  statue = {MockSlaverStatues} />);
+  expect(wrapper.text()).toContain("Edward Colston")
+  expect(wrapper.text()).toContain("Marquis de Lafayette")
+})
