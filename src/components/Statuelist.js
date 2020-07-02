@@ -8,7 +8,7 @@ export class StatueList extends Component {
 
   render() {
     const items = this.props.statue.map((item, key) => (
-      <li key={item.statueName}>{item.statueName}</li>
+      <li key={item.name}>{item.name}</li>
     ));
 
     console.log(items);

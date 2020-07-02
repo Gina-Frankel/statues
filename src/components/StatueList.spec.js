@@ -5,7 +5,7 @@ import StatueList from "./Statuelist";
 it("renders without crashing", () => {
   const MockSlaverStatues = [
     {
-      statueName: "Edward Colston",
+      name: "Edward Colston",
     },
   ];
 
@@ -15,7 +15,7 @@ it("renders without crashing", () => {
 it("renders name of statue", () => {
   const MockSlaverStatues = [
     {
-      statueName: "Edward Colston",
+      name: "Edward Colston",
     },
   ];
   const wrapper = shallow(<StatueList statue={MockSlaverStatues} />);
@@ -26,10 +26,10 @@ it("renders name of statue", () => {
 it("renders names of multiple statues", () =>{
   const MockSlaverStatues = [
     {
-      statueName: "Edward Colston",
+      name: "Edward Colston",
     },
     {
-      statueName: "Marquis de Lafayette",
+      name: "Marquis de Lafayette",
     }
   ]
   const wrapper = shallow (<StatueList  statue = {MockSlaverStatues} />);

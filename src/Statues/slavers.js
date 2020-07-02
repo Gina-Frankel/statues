@@ -1,10 +1,10 @@
-const SlaverStatues = [ 
+const slaverStatueList = [ 
   {
-    statueName: "Edward Colston"
+    name: "Edward Colston"
   },
   {
-    statueName: "Joseph Edgar Boehm"
+    name: "Joseph Edgar Boehm"
   }
 ]
 
-export default SlaverStatues;
+export default slaverStatueList;
