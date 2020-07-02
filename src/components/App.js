@@ -1,5 +1,5 @@
 import React from 'react';
-import {StatueListContainer} from './StatueListContainer.js'
+import StatueListContainer from './StatueListContainer.js'
 
 function App() {
   return (
