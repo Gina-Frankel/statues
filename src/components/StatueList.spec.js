@@ -35,7 +35,7 @@ it("renders names of multiple statues", () =>{
       name: "Marquis de Lafayette",
     }
   ]
-  const wrapper = shallow (<StatueList  statue = {MockSlaverStatues} />);
+  const wrapper = shallow (<StatueList statue={MockSlaverStatues} />);
   expect(wrapper.text()).toContain("Edward Colston")
   expect(wrapper.text()).toContain("Marquis de Lafayette")
 })
