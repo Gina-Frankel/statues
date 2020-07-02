@@ -9,7 +9,10 @@ it("renders without crashing", () => {
     },
   ];
 
-  shallow(<StatueList statue={MockSlaverStatues} />);
+  const wrapper = shallow(<StatueList statue={MockSlaverStatues} />);
+
+  expect(wrapper).toHaveLength(1)
+
 });
 
 it("renders name of statue", () => {

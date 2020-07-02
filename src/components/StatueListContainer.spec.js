@@ -3,7 +3,9 @@ import { shallow } from 'enzyme';
 import StatueListContainer from './StatueListContainer';
 
 it('renders without crashing', () => {
-  shallow(< StatueListContainer />)
+  const wrapper = shallow(< StatueListContainer />);
+
+  expect(wrapper).toHaveLength(1)
 })
 
 it("displays the title for the list of statues", ()=> {
