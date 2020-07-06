@@ -1,5 +1,6 @@
 import React from 'react';
 import Heading from './Heading.js'
+import StatueListContainer from './StatueListContainer.js'
 import './App.css';
 
 function App() {
@@ -9,11 +10,10 @@ function App() {
         <Heading/>
       </header>
       <div>
-        Edward Colston
+        <StatueListContainer/>
       </div>
     </div>
   );
 }
 
 export default App;
-
