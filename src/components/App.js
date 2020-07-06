@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import StatueListContainer from './StatueListContainer.js'
 
 function App() {
   return (
@@ -7,11 +7,10 @@ function App() {
       <header className="App-header">
       </header>
       <div>
-        Edward Colston
+        <StatueListContainer/>
       </div>
     </div>
   );
 }
 
 export default App;
-
