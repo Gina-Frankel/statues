@@ -4,6 +4,7 @@ import Banner from './LandingBanner.js'
 import Picture from './LandingPicture.js'
 import StatueListContainer from './StatueListContainer.js'
 import './App.css';
+import '../index.css';
 
 function App() {
   return (
