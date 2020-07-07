@@ -10,10 +10,7 @@ function NavBar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav">
-          <a className="nav-item nav-link" href="#">About</a>
-          <a className="nav-item nav-link" href="#">Statues</a>
-        </div>
+        
       </div>
     </nav>
     </div>
