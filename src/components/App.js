@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar.js'
 import Hero from './Hero.js'
-import Picture from './LandingPicture.js'
+import HeroPicture from './HeroPicture.js'
 import StatueListContainer from './StatueListContainer.js'
 import './App.css';
 import '../index.css';
@@ -18,7 +18,7 @@ function App() {
           <Hero/>
           </div>
           <div className="col-lg-5 text-center">
-          <Picture/>
+          <HeroPicture/>
           </div>
         </div>
       </div>

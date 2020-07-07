@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function LandingPicture() {
+function HeroPicture() {
   return (
     <div className="landing-picture">
     
@@ -11,4 +11,4 @@ function LandingPicture() {
   );
 }
 
-export default LandingPicture;
+export default HeroPicture;
