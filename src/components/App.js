@@ -12,7 +12,7 @@ function App() {
       <header className="app-header">
         <NavBar/>
       </header>
-      <div className="landing-page">
+      <div className="Hero-container">
         <div className="row justify-content-around">
           <div className="col-lg-6 text-center">
           <Hero/>
