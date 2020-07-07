@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Banner() {
+function Hero() {
   return (
     <div className="banner">
     
@@ -12,4 +12,4 @@ function Banner() {
   );
 }
 
-export default Banner;
+export default Hero;
