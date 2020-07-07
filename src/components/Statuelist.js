@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { StatueListItem } from "./StatueListItem";
 
 export class StatueList extends Component {
   constructor() {
@@ -7,8 +8,11 @@ export class StatueList extends Component {
   }
 
   render() {
-    const items = this.props.statue.map((item, key) => (
-      <li key={item.name}>{item.name}</li>
+    const statues = this.props.statue
+    const items = statues.map((item) => (
+    
+      <StatueListItem key={item.name} value={item} />
+      
     ));
 
     return (
@@ -18,5 +22,3 @@ export class StatueList extends Component {
     );
   }
 }
-
-// export default StatueList;
