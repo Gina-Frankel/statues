@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import StatueList from "./Statuelist";
 import slaverStatueList from "./../statues/slavers.js";
 
-export class StatueListContainer extends Component {
+ export class StatueListContainer extends Component {
 
   render() {
     return (
@@ -14,4 +14,4 @@ export class StatueListContainer extends Component {
   }
 }
 
-export default StatueListContainer;
+//export class StatueListContainer;
