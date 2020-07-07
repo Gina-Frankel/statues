@@ -2,9 +2,14 @@
 .app {
   background-color: #0E0E0E;
   color: white;
-  font-family: 'Edo-sz';
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
 } 
+
+h1 {
+  font-family: 'Edo-sz';
+}
+
 
 img {
   max-width: 100%;
