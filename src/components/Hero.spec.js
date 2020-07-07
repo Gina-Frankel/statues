@@ -12,7 +12,7 @@ describe("Hero", () => {
   it ('displays tag line', () => {
     const wrapper = shallow(<Hero/>);
     
-    expect(wrapper.text()).toContain("Identifing, educating and moving forward")
+    expect(wrapper.text()).toContain("Identifying, educating and moving forward")
   
   });
 });
