@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Hero() {
+export function Hero() {
   return (
     <div className="Hero">
     
@@ -12,4 +12,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+//export default Hero;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function HeroPicture() {
+export function HeroPicture() {
   return (
     <div className="hero-picture">
     
@@ -11,4 +11,3 @@ function HeroPicture() {
   );
 }
 
-export default HeroPicture;
