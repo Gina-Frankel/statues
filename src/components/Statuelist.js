@@ -19,4 +19,4 @@ export class StatueList extends Component {
   }
 }
 
-export default StatueList;
+// export default StatueList;

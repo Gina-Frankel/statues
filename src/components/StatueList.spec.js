@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
-import StatueList from "./Statuelist";
+import { StatueList } from "./Statuelist";
 
 it("renders without crashing", () => {
   const MockSlaverStatues = [
