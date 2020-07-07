@@ -1,6 +1,6 @@
 import React from 'react';
-import Heading from './Heading.js'
-import Banner from './LandingBanner.js'
+import NavBar from './NavBar.js'
+import Hero from './Hero.js'
 import Picture from './LandingPicture.js'
 import StatueListContainer from './StatueListContainer.js'
 import './App.css';
@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <Heading/>
+        <NavBar/>
       </header>
       <div className="landing-page">
         <div className="row justify-content-around">
           <div className="col-lg-6 text-center">
-          <Banner/>
+          <Hero/>
           </div>
           <div className="col-lg-5 text-center">
           <Picture/>
