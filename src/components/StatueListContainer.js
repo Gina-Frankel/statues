@@ -14,4 +14,3 @@ export class StatueListContainer extends Component {
   }
 }
 
-// export default StatueListContainer;
