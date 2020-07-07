@@ -2,7 +2,7 @@ import React from 'react';
 import './NavBar.css';
 
 
-function NavBar() {
+export function NavBar() {
   return (
     <div className="NavBar">
     <nav className="navbar navbar-expand-lg heading">
@@ -17,4 +17,3 @@ function NavBar() {
   );
 }
 
-export default NavBar;
