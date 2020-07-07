@@ -6,7 +6,7 @@ function Hero() {
     <div className="Hero">
     
     <h1>Don't stand for art that doesn't stand for you</h1>
-    <p>Identifying, educating and moving forward</p>
+    <p>There are dozens of public artworks depicting people involved in slavery</p>
    
     </div>
   );
