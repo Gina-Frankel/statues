@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Heading from './Heading';
+import NavBar from './NavBar';
 
 it('renders without crashing', () => {
-  const wrapper = shallow(<Heading />)
+  const wrapper = shallow(<NavBar />)
 
   expect(wrapper).toHaveLength(1)
 })

@@ -2,7 +2,7 @@ import React from 'react';
 import './Heading.css';
 
 
-function Heading() {
+function NavBar() {
   return (
     <div className="heading">
     <nav className="navbar navbar-expand-lg heading">
@@ -20,4 +20,4 @@ function Heading() {
   );
 }
 
-export default Heading;
+export default NavBar;
