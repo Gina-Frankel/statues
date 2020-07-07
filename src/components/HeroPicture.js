@@ -3,7 +3,7 @@ import React from 'react';
 
 function HeroPicture() {
   return (
-    <div className="landing-picture">
+    <div className="hero-picture">
     
     <img src="./statue.png"></img>
    
