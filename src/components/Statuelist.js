@@ -8,17 +8,11 @@ export class StatueList extends Component {
   }
 
   render() {
-    const statues = this.props.statue
+    const statues = this.props.statue;
     const items = statues.map((item) => (
-    
       <StatueListItem key={item.name} value={item} />
-      
     ));
 
-    return (
-      <div>
-        <ul>{items}</ul>
-      </div>
-    );
+    return <ul>{items}</ul>;
   }
 }
