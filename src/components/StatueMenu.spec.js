@@ -1,8 +1,8 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
-import { StatueList } from "./StatueMenu";
+import { StatueMenu } from "./StatueMenu";
 //import { render } from "@testing-library/react";
-import MockedStatueListItem from "./StatueListItem";
+//import MockedStatueListItem from "./StatueListItem";
 
 it("renders without crashing", () => {
   const MockSlaverStatues = [
@@ -11,7 +11,7 @@ it("renders without crashing", () => {
     },
   ];
 
-  const wrapper = shallow(<StatueList statue={MockSlaverStatues} />);
+  const wrapper = shallow(<StatueMenu statue={MockSlaverStatues} />);
 
   expect(wrapper).toHaveLength(1);
 });
