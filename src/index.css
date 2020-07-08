@@ -1,3 +1,7 @@
+body {
+  background-color: #0E0E0E !important;
+}
+
 @font-face {
   font-family: 'Edo-sz';
   src: local('Edo-sz'), url(./fonts/edosz.ttf) format('truetype');
