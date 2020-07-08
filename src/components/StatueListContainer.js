@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { StatueList } from "./Statuelist";
-//import slaverStatueList from "./../statues/slavers.js";
 
 export class StatueListContainer extends Component {
   render() {
