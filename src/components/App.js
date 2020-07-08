@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Hero, NavBar } from "./index.js";
+import { Hero, NavContainer } from "./index.js";
 
 //import { NavBar } from "./NavBar.js";
 //import { Hero } from "./Hero.js";
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <NavBar />
+        <NavContainer />
       </header>
 
       <Hero />
