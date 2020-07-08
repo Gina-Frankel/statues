@@ -1,13 +1,12 @@
-import React from 'react';
-import { StatueListContainer } from './StatueListContainer.js'
+import React from "react";
+import { StatueMenuContainer } from "./StatueMenuContainer.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <header className="App-header"></header>
       <div>
-        <StatueListContainer/>
+        <StatueMenuContainer />
       </div>
     </div>
   );
