@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { StatueListItem } from "./StatueListItem";
 import slaverStatueList from "../statues/slavers.js";
 
-export class StatueList extends Component {
+export class StatueMenu extends Component {
   constructor() {
     super();
     this.state = {};
