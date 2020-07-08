@@ -1,8 +1,7 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
 import { StatueMenu } from "./StatueMenu";
-//import { render } from "@testing-library/react";
-//import MockedStatueListItem from "./StatueListItem";
+import { StatueMenuItem } from "./StatueMenuItem";
 
 it("renders without crashing", () => {
   const MockSlaverStatues = [
@@ -16,50 +15,19 @@ it("renders without crashing", () => {
   expect(wrapper).toHaveLength(1);
 });
 
-// MOCKING
+it("renders a StatueMenuItem ", () => {
+  const MockSlaverStatues = [
+    {
+      name: "Edward Colston",
+    },
+  ];
+  const wrapper = shallow(<StatueMenu statue={MockSlaverStatues} />);
 
-// jest.mock("./StatueListItem", () => {
-//   return function DummyItem(props){
-//   <li>{props.value.name}</li>;
-//   }
-// }
+  const id = "Edward Colston";
+  const node = {
+    name: "Edward Colston",
+  };
+  const statueMenuItem = <StatueMenuItem key={id} value={node} />;
 
-//  it("should return correct component", () => {
-// //   const wrapper = mount(<StatueListItem />);
-//  });
-
-// it("renders name of statue", () => {
-//   const MockSlaverStatues = [
-//     {
-//       name: "Edward Colston",
-//     },
-//   ];
-
-//   const { wrapper } = shallow(<StatueList statue={MockSlaverStatues} />);
-//   expect(wrapper.text()).toContain("Edward Colston");
-// });
-
-// it("renders name of statue", () => {
-//   const MockSlaverStatues = [
-//     {
-//       name: "Edward Colston",
-//     },
-//   ];
-//   const wrapper = shallow(<StatueList statue={MockSlaverStatues} />);
-
-//   expect(wrapper.text()).toContain("Edward Colston");
-// });
-
-// it("renders names of multiple statues", () =>{
-//   const MockSlaverStatues = [
-//     {
-//       name: "Edward Colston",
-//     },
-//     {
-//       name: "Marquis de Lafayette",
-//     }
-//   ]
-//   const wrapper = shallow (<StatueList statue={MockSlaverStatues} />);
-//   expect(wrapper.text()).toContain("Edward Colston")
-//   expect(wrapper.text()).toContain("Marquis de Lafayette")
-// })
+  expect(wrapper.containsMatchingElement(statueMenuItem)).toEqual(true);
+});
