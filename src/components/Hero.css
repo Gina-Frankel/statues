@@ -1,0 +1,11 @@
+.statueImage{
+  height: auto;
+  max-width: 100%; 
+} 
+
+/* Would this be helpful? */
+
+/* .px-5{
+  padding-left: $spacer  !important;
+  padding-right: $spacer  !important;
+} */
