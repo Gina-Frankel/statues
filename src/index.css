@@ -4,5 +4,6 @@ body {
 
 @font-face {
   font-family: 'Edo-sz';
-  src: local('Edo-sz'), url(./fonts/edosz.ttf) format('truetype');
+  src: url('./fonts/edosz.ttf'); 
+  src: local('Edo-sz'), url('./fonts/edosz.ttf') format('truetype');
 }
