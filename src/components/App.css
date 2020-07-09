@@ -1,0 +1,25 @@
+.app {
+  background-color: #111111;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Edo-sz";
+}
+
+h2 {
+  font-family: "Edo-sz"
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* 
+.hero {
+  margin: 2em;
+  margin: 2em;
+} */
