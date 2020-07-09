@@ -26,6 +26,7 @@ it("renders a StatueMenuItem ", () => {
   const id = "Edward Colston";
   const node = {
     name: "Edward Colston",
+    summary: "mean",
   };
   const statueMenuItem = <StatueMenuItem key={id} value={node} />;
 
