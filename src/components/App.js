@@ -1,5 +1,5 @@
 import React from "react";  
-import { Hero, NavContainer } from "./index.js";
+import { Hero, NavContainer, StatueDetailContainer } from "./index.js";
 import { StatueMenuContainer } from "./StatueMenuContainer.js";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
@@ -15,8 +15,8 @@ function App() {
       <div>
         <Hero />
         <Router>
-        <StatueMenuContainer />
-        <Route path="/"></Route>
+          <StatueMenuContainer />
+          <Route path="/StatueDetailContainer" component={StatueDetailContainer} />
         </Router>
       </div>
     </div>
