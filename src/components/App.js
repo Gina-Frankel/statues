@@ -1,27 +1,19 @@
-import React from "react";
-
+import React from "react";  
 import { Hero, NavContainer } from "./index.js";
-
-//import { NavBar } from "./NavBar.js";
-//import { Hero } from "./Hero.js";
-
-// import { HeroPicture } from "./HeroPicture.js";
-import StatueListContainer from "./StatueListContainer.js";
+import { StatueMenuContainer } from "./StatueMenuContainer.js";
 import "./App.css";
 import "../index.css";
 import "./index.js";
 
 function App() {
   return (
-    <div className="app">
-      <header className="app-header">
-        <NavContainer />
+    <div className="App">
+      <header className="App-header">
+        <NavContainer />  
       </header>
-
-      <Hero />
-
       <div>
-        <StatueListContainer />
+        <Hero />
+        <StatueMenuContainer />
       </div>
     </div>
   );
