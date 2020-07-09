@@ -10,7 +10,7 @@ export function Hero() {
         <p className="lead col-9">{labels.heroSubHeading}</p>
         <p> find out more</p>
       </div>
-      <div>
+      <div className=" mt-auto ">
         <img
           src={genericStatuePicture}
           //Think is not necessary?
