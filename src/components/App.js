@@ -2,11 +2,14 @@ import React from "react";
 import { Hero, NavContainer, StatueDetailContainer } from "./index.js";
 import { StatueMenuContainer } from "./StatueMenuContainer.js";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import slaverStatueList from "../statues/slavers.js";
 import "./App.css";
 import "../index.css";
 import "./index.js";
 
 function App() {
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +19,7 @@ function App() {
         <Hero />
         <Router>
           <StatueMenuContainer />
-          <Route path="/StatueDetailContainer" component={StatueDetailContainer} />
+          <Route path="/StatueDetailContainer/0" component={StatueDetailContainer} />
         </Router>
       </div>
     </div>
