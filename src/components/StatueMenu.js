@@ -3,11 +3,11 @@ import { StatueMenuItem } from "./StatueMenuItem";
 import slaverStatueList from "../statues/slavers.js";
 
 export class StatueMenu extends Component {
-  
+
   render() {
     const statues = slaverStatueList;
-    const items = statues.map((item) => (
-      <StatueMenuItem key={item.name} value={item} />
+    const items = statues.map((item, index) => (
+      <StatueMenuItem key={index} value={item} index={index} />
     ));
 
     return <ul>{items}</ul>;

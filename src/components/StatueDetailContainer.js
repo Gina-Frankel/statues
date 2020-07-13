@@ -5,15 +5,20 @@ export class StatueDetailContainer extends Component {
 
   render() {
     
-    const Hello = "hello"
+    const statues = slaverStatueList[0].details;
     
+    // const items = statues.map((item) => (
+    //   <StatueMenuItem key={item.name} value={item} />
+    // ));
 
-
+    
     return (
     <>
     <div>
       Evil statue information
-      {Hello}
+    </div>
+    <div>
+      {statues}
     </div>
     </>
     )
