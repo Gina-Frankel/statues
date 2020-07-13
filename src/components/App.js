@@ -2,7 +2,6 @@ import React from "react";
 import { Hero, NavContainer, StatueDetailContainer } from "./index.js";
 import { StatueMenuContainer } from "./StatueMenuContainer.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import slaverStatueList from "../statues/slavers.js";
 import "./App.css";
 import "../index.css";
 import "./index.js";
