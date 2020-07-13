@@ -20,8 +20,8 @@ function App() {
         <Router>
           <StatueMenuContainer />
           <Switch>
-            <Route path="/StatueDetailContainer/0" component={StatueDetailContainer} />
-            <Route path="/StatueDetailContainer/1" component={StatueDetailContainer} />
+            <Route path="/StatueDetailContainer/Edward-Colston" component={StatueDetailContainer} />
+            <Route path="/StatueDetailContainer/Joseph-Edgar-Boehm" component={StatueDetailContainer} />
           </Switch>
         </Router>
       </div>
