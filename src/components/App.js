@@ -1,7 +1,7 @@
 import React from "react";  
 import { Hero, NavContainer, StatueDetailContainer } from "./index.js";
 import { StatueMenuContainer } from "./StatueMenuContainer.js";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import slaverStatueList from "../statues/slavers.js";
 import "./App.css";
 import "../index.css";
@@ -19,7 +19,10 @@ function App() {
         <Hero />
         <Router>
           <StatueMenuContainer />
-          <Route path="/StatueDetailContainer/0" component={StatueDetailContainer} />
+          <Switch>
+            <Route path="/StatueDetailContainer/0" component={StatueDetailContainer} />
+            <Route path="/StatueDetailContainer/1" component={StatueDetailContainer} />
+          </Switch>
         </Router>
       </div>
     </div>

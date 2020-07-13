@@ -4,21 +4,17 @@ import slaverStatueList from "../statues/slavers.js";
 export class StatueDetailContainer extends Component {
 
   render() {
-    
-    const statues = slaverStatueList[0].details;
-    
-    // const items = statues.map((item) => (
-    //   <StatueMenuItem key={item.name} value={item} />
-    // ));
 
+    const statueName = this.props.location.state.name;
+    const statueDetail = this.props.location.state.details;
     
     return (
     <>
     <div>
-      Evil statue information
+      {statueName}
     </div>
     <div>
-      {statues}
+      {statueDetail}
     </div>
     </>
     )
