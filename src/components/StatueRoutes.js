@@ -1,21 +1,19 @@
 import React, { Component } from "react";
 import SlaverStatueList from "../statues/slavers.js";
 import { StatueDetailContainer } from "./index";
-import { BrowserRouter as Route } from "react-router-dom";
+import { BrowserRouter as Route, Switch } from "react-router-dom";
 
-export class StatueRoute extends Component {
+export class StatueRoutes extends Component {
   render() {
-    const nameList = [];
-    SlaverStatueList.forEach((statue) =>
-      nameList.push(`/StatueDetailContainer/${statue.name.replace(/\s/g, "-")}`)
-    );
-    const newRoute = [];
-    nameList.forEach((name, index) =>
-      newRoute.push(
-        <Route key={index} path={name} component={StatueDetailContainer} />
-      )
-    );
+    const newRoute = SlaverStatueList.map((statue, index) => {
+      const url = `/StatueDetailContainer/${statue.name.replace(/\s/g, "-")}`;
+      return (
+        <Route key={index} path={url}>
+          <StatueDetailContainer statue={statue} />
+        </Route>
+      );
+    });
 
-    return newRoute;
+    return <Switch>{newRoute}</Switch>;
   }
 }
