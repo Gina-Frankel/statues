@@ -3,33 +3,19 @@ import SlaverStatueList from "../statues/slavers.js";
 import { StatueDetailContainer } from "./index";
 import { BrowserRouter as Route } from "react-router-dom";
 
-//   routeGenerator = (SlaverStatueList) => {
-//     return SlaverStatueList;
-//   };
-
-// const nameNoSpaces = name.replace(/\s/g, "-");
-// const statueUrl = "/StatueDetailContainer/" + nameNoSpaces;
-
 export class StatueRoute extends Component {
   render() {
     const nameList = [];
-    SlaverStatueList.map((statue) =>
-      nameList.push(statue.name.replace(/\s/g, "-"))
+    SlaverStatueList.forEach((statue) =>
+      nameList.push(`/StatueDetailContainer/${statue.name.replace(/\s/g, "-")}`)
     );
-    const slaverRoute = nameList.map((name) => (
-      // console.log(name) // rightUrl = `/StatueDetailContainer/${name}`;
-      // `/StatueDetailContainer/${name}`
+    const newRoute = [];
+    nameList.forEach((name, index) =>
+      newRoute.push(
+        <Route key={index} path={name} component={StatueDetailContainer} />
+      )
+    );
 
-      <Route
-        key={name}
-        path={`/route/${name}`}
-        component={StatueDetailContainer}
-      />
-    ));
-
-    return <div> {slaverRoute} </div>;
-    // <Route path={slaverRoute} component={StatueDetailContainer} />;
-
-    //<Route path={rightUrl} component={StatueDetailContainer} />
+    return newRoute;
   }
 }
