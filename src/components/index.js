@@ -1,4 +1,5 @@
 export { StatueMenuContainer } from "./StatueMenuContainer";
 export { Hero } from "./Hero.js";
 export { NavContainer } from "./NavContainer";
-export { StatueDetailContainer } from './StatueDetailContainer';
+export { StatueDetailContainer } from "./StatueDetailContainer";
+export { StatueRoute } from "./StatueRoute";
