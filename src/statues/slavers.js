@@ -1,11 +1,11 @@
 const slaverStatueList = [
   {
     name: "Edward Colston",
-    summary: "mean",
+    details: "Slaver man one",
   },
   {
     name: "Joseph Edgar Boehm",
-    summary: "evil",
+    details: "Slaver man two",
   },
 ];
 

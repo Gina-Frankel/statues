@@ -1,17 +1,16 @@
 import React, { Component } from "react";
+import style from "./StatueDetailContainer.module.css";
 
 export class StatueDetailContainer extends Component {
-  // constructor() {
-  //   super();
-  //   this.state = {};
-  // }
-
   render() {
+    const statueName = this.props.location.state.name;
+    const statueDetail = this.props.location.state.details;
 
     return (
-    <div>
-      Evil statue information
-    </div>
-    )
+      <div className={style.container}>
+        <div>{statueName}</div>
+        <div>{statueDetail}</div>
+      </div>
+    );
   }
 }
