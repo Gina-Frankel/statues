@@ -2,6 +2,8 @@ import React from "react";
 import { Hero, NavContainer, StatueDetailContainer } from "./index.js";
 import { StatueMenuContainer } from "./StatueMenuContainer.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { StatueRoute } from "./index";
+
 import "./App.css";
 import "../index.css";
 import "./index.js";
@@ -25,6 +27,7 @@ function App() {
               path="/StatueDetailContainer/Joseph-Edgar-Boehm"
               component={StatueDetailContainer}
             />
+            {/* <StatueRoute /> */}
           </Switch>
         </Router>
       </div>
