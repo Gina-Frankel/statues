@@ -3,13 +3,12 @@ import style from "./StatueDetailContainer.module.css";
 
 export class StatueDetailContainer extends Component {
   render() {
-    const statueName = this.props.location.state.name;
-    const statueDetail = this.props.location.state.details;
+    const { name, details } = this.props.statue;
 
     return (
       <div className={style.container}>
-        <div>{statueName}</div>
-        <div>{statueDetail}</div>
+        <div>{name}</div>
+        <div>{details}</div>
       </div>
     );
   }
