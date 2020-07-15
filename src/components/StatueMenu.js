@@ -12,10 +12,9 @@ export class StatueMenu extends Component {
 
   render() {
     console.log(this.state);
-    const items = this.state.statues.map((item, index) => {
-      console.log(item);
-      return <StatueMenuItem key={index} value={item} />;
-    });
+    const items = this.state.statues.map((item, index) => (
+      <StatueMenuItem key={index} value={item} />
+    ));
 
     return <ul>{items}</ul>;
   }
