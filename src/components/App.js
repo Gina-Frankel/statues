@@ -14,13 +14,18 @@ function App() {
         <NavContainer />
       </header>
       <div>
-        <Hero />
-        <Router>
-          <div className="row">
-            <StatueMenuContainer />
-            <StatueRoutes />
-          </div>
-        </Router>
+        <div className="container">
+          <Hero />
+
+          <Router>
+            {/* <div className="container"> */}
+            <div className="row justify-content-between mt-3">
+              <StatueMenuContainer />
+              <StatueRoutes />
+            </div>
+            {/* </div> */}
+          </Router>
+        </div>
       </div>
     </div>
   );

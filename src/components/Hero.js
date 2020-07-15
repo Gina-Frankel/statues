@@ -4,13 +4,13 @@ import labels from "../labels";
 
 export function Hero() {
   return (
-    <div className="d-flex flex-row">
-      <div className="jumbotron px-5 mt-5 col-sm ">
+    <div className="row justify-content-end">
+      <div className="jumbotron mt-5 col-lg-5 col-sm-12 ">
         <h1 className="display-4  ">{labels.heroHeading}</h1>
         <p className="lead col-9">{labels.heroSubHeading}</p>
         <p> find out more</p>
       </div>
-      <div className=" mt-auto ">
+      <div className="col-lg-7 col-sm-12 text-right">
         <img
           src={genericStatuePicture}
           //Think is not necessary?

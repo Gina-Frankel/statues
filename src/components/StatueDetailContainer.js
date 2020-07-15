@@ -6,7 +6,7 @@ export class StatueDetailContainer extends Component {
     const { name, details } = this.props.statue;
 
     return (
-      <div className="col-lg-7 col-sm-6 mt-4">
+      <div className="col-lg-8 col-md-6 col-sm-12">
         <div className="row mt-2">
           <h2 className="mb-4">{name}</h2>
           <div className="col-sm-5">
