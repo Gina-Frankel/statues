@@ -1,0 +1,14 @@
+li {
+  text-align: left;
+  padding-top: 5px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: black !important;
+}

@@ -1,6 +1,8 @@
-import React from "react";  
-import { Hero, NavContainer } from "./index.js";
+import React from "react";
+import { Hero, NavContainer, StatueRoutes } from "./index.js";
 import { StatueMenuContainer } from "./StatueMenuContainer.js";
+import { BrowserRouter as Router } from "react-router-dom";
+
 import "./App.css";
 import "../index.css";
 import "./index.js";
@@ -9,11 +11,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavContainer />  
+        <NavContainer />
       </header>
       <div>
         <Hero />
-        <StatueMenuContainer />
+        <Router>
+          <StatueMenuContainer />
+          <StatueRoutes />
+        </Router>
       </div>
     </div>
   );
