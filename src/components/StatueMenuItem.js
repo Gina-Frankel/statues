@@ -9,10 +9,7 @@ export function StatueMenuItem(props) {
 
   return (
     <li className={style.li}>
-      <Link
-        to={{ pathname: statueUrl, state: props.value }}
-        className={style.a}
-      >
+      <Link to={statueUrl} className={style.a}>
         {props.value.name}
       </Link>
     </li>
