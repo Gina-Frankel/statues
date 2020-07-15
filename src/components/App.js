@@ -9,15 +9,17 @@ import "./index.js";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <header className="App-header">
         <NavContainer />
       </header>
       <div>
         <Hero />
         <Router>
-          <StatueMenuContainer />
-          <StatueRoutes />
+          <div className="row">
+            <StatueMenuContainer />
+            <StatueRoutes />
+          </div>
         </Router>
       </div>
     </div>
