@@ -4,7 +4,7 @@ import labels from "../labels";
 
 export function Hero() {
   return (
-    <div className="row justify-content-end">
+    <>
       <div className="jumbotron mt-5 col-lg-5 col-sm-12 ">
         <h1 className="display-4  ">{labels.heroHeading}</h1>
         <p className="lead col-9">{labels.heroSubHeading}</p>
@@ -18,6 +18,6 @@ export function Hero() {
           alt="Generic problematic statue"
         ></img>
       </div>
-    </div>
+    </>
   );
 }

@@ -15,15 +15,14 @@ function App() {
       </header>
       <div>
         <div className="container">
-          <Hero />
-
+          <div className="row justify-content-end">
+            <Hero />
+          </div>
           <Router>
-            {/* <div className="container"> */}
             <div className="row justify-content-between mt-3">
               <StatueMenuContainer />
               <StatueRoutes />
             </div>
-            {/* </div> */}
           </Router>
         </div>
       </div>
