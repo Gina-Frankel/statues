@@ -10,7 +10,7 @@ it("renders without crashing", () => {
     },
   ];
 
-  const wrapper = shallow(<StatueMenu statue={MockSlaverStatues} />);
+  const wrapper = shallow(<StatueMenu statues={MockSlaverStatues} />);
 
   expect(wrapper).toHaveLength(1);
 });
@@ -21,14 +21,12 @@ it("renders a StatueMenuItem ", () => {
       name: "Edward Colston",
     },
   ];
-  const wrapper = shallow(<StatueMenu statue={MockSlaverStatues} />);
+  const wrapper = shallow(<StatueMenu statues={MockSlaverStatues} />);
 
-  const id = "Edward Colston";
   const node = {
     name: "Edward Colston",
-    summary: "mean",
   };
-  const statueMenuItem = <StatueMenuItem key={id} value={node} />;
+  const statueMenuItem = <StatueMenuItem key={0} value={node} />;
 
   expect(wrapper.containsMatchingElement(statueMenuItem)).toEqual(true);
 });
