@@ -13,7 +13,7 @@ export class StatueDetailContainer extends Component {
             <img src="../../default.png" />
           </div>
           <div className="col-sm-12 col-md-7 container">
-            <div className="mt-3 px-3">{details}</div>
+            <div>{details}</div>
           </div>
         </div>
       </div>
