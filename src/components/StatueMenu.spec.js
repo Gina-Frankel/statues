@@ -1,5 +1,6 @@
+/* eslint-disable no-undef */
 import React from "react";
-import { shallow, mount } from "enzyme";
+import { shallow } from "enzyme";
 import { StatueMenu } from "./StatueMenu";
 import { StatueMenuItem } from "./StatueMenuItem";
 
