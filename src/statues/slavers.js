@@ -431,42 +431,6 @@ const slaversStatueList = [
       "https://artuk.org/discover/artworks/benjamin-franklin-17061790-249118/",
     artworkArtist: "unknown artist",
   },
-  {
-    name: "David",
-    wikiArticleURI: "https://en.wikipedia.org/wiki/David",
-    artworkTitle: "David",
-    artworkURI: "https://artuk.org/discover/artworks/david-256937/",
-    artworkArtist: "unknown artist",
-  },
-  {
-    name: "David",
-    wikiArticleURI: "https://en.wikipedia.org/wiki/David",
-    artworkTitle: "David",
-    artworkURI: "https://artuk.org/discover/artworks/david-247780/",
-    artworkArtist: "Michelangelo Buonarroti (1475â1564) (copy of)",
-  },
-  {
-    name: "David",
-    wikiArticleURI: "https://en.wikipedia.org/wiki/David",
-    artworkTitle: "David and Goliath",
-    artworkURI: "https://artuk.org/discover/artworks/david-and-goliath-257076/",
-    artworkArtist: "John Cheere (1709â1787) (possibly)",
-  },
-  {
-    name: "David",
-    wikiArticleURI: "https://en.wikipedia.org/wiki/David",
-    artworkTitle: "David with Harp",
-    artworkURI: "https://artuk.org/discover/artworks/david-with-harp-272056/",
-    artworkArtist: "Pasquale Romanelli (1812â1887)",
-  },
-  {
-    name: "David",
-    wikiArticleURI: "https://en.wikipedia.org/wiki/David",
-    artworkTitle: "David with Goliath's Head",
-    artworkURI:
-      "https://artuk.org/discover/artworks/david-with-goliaths-head-250235/",
-    artworkArtist: "unknown artist",
-  },
 ];
 
 export default slaversStatueList;
