@@ -4,7 +4,7 @@ body {
 }
 
 @font-face {
-  font-family: 'Edo-sz';
-  src: url('./fonts/edosz.ttf'); 
-  src: local('Edo-sz'), url('./fonts/edosz.ttf') format('truetype');
+  font-family: "Edo-sz";
+  src: url("./fonts/edosz.ttf");
+  src: local("Edo-sz"), url("./fonts/edosz.ttf") format("truetype");
 }
