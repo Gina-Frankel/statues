@@ -10,13 +10,23 @@ export class StatueDetailContainer extends Component {
         <div>{name}</div>
         <div>
           Information about {name} can be found at:{" "}
-          <a href={wikiArticleURI} target="_blank" alt={name}>
+          <a
+            href={wikiArticleURI}
+            target="_blank"
+            rel="noopener noreferrer"
+            alt={name}
+          >
             Wikipedia article
           </a>
         </div>
         <div>
           Information about the artwork can be found at:{" "}
-          <a href={artworkURI} target="_blank" alt={name}>
+          <a
+            href={artworkURI}
+            target="_blank"
+            rel="noopener noreferrer"
+            alt={name}
+          >
             ArtUK page
           </a>
         </div>
