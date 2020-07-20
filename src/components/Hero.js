@@ -13,8 +13,6 @@ export function Hero() {
       <div className="col-lg-7 col-sm-12 align-self-end text-right">
         <img
           src={genericStatuePicture}
-          //Think is not necessary?
-          className="statueImage"
           alt="Generic problematic statue"
         ></img>
       </div>
