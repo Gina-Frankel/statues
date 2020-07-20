@@ -4,7 +4,8 @@ import style from "./StatueMenuItem.module.css";
 
 export function StatueMenuItem(props) {
   const name = props.value.name;
-  const nameNoSpaces = name.replace(/\s/g, "-");
+  const statueId = props.value.statueId;
+  const nameNoSpaces = `${name.replace(/\s/g, "-")}-${statueId}`;
   const statueUrl = "/StatueDetailContainer/" + nameNoSpaces;
 
   return (
