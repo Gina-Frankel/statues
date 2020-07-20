@@ -14,4 +14,10 @@ describe("NavContainer", () => {
     const link = <Link to="/about">About</Link>;
     expect(wrapper.containsMatchingElement(link)).toEqual(true);
   });
+
+  it("renders a Link to the Statues component/page (root path)", () => {
+    const wrapper = shallow(<NavContainer />);
+    const link = <Link to="/">Statues</Link>;
+    expect(wrapper.containsMatchingElement(link)).toEqual(true);
+  });
 });
