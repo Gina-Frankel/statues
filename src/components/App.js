@@ -14,9 +14,7 @@ function App() {
         <NavContainer />
       </header>
       <div className="container">
-        <div className="row justify-content-end">
-          <Hero />
-        </div>
+        <Hero />
         <Router>
           <div className="row justify-content-between mt-3">
             <StatueMenuContainer />
