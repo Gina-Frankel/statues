@@ -4,10 +4,10 @@ import labels from "../labels";
 export function About() {
   return (
     <>
-      <div>{labels.AboutHeading}</div>
-      <div>{labels.AboutMissionTitle}</div>
-      <div>{labels.MissionTitleText}</div>
-      <div>{labels.MissionTitle}</div>
+      <div>{labels.aboutHeading}</div>
+      <div>{labels.aboutMissionTitle}</div>
+      <div>{labels.aboutMissionTitleText}</div>
+      <div>{labels.aboutMissionTitle}</div>
     </>
   );
 }
