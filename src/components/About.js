@@ -7,7 +7,6 @@ export function About() {
       <div>{labels.aboutHeading}</div>
       <div>{labels.aboutMissionTitle}</div>
       <div>{labels.aboutMissionTitleText}</div>
-      <div>{labels.aboutMissionTitle}</div>
     </>
   );
 }
