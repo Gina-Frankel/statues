@@ -20,9 +20,7 @@ export function NavContainer() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="ml-auto navbar-nav">
             <Link to="/about">About</Link>
-            <a className="nav-item nav-link" href="#">
-              Statues
-            </a>
+            <Link to="/">Statues</Link>
           </div>
         </div>
       </nav>
