@@ -12,11 +12,16 @@ export function About() {
     );
   });
   return (
-    <>
-      <div>{labels.aboutHeading}</div>
-      <div>{labels.aboutMissionTitle}</div>
-      <div>{labels.aboutMissionTitleText}</div>
-      <ul>{githubLinks}</ul>
-    </>
+    <div>
+      <h1 className="display-4 my-5">{labels.aboutHeading}</h1>
+      <section className="my-5">
+        <h2 className="mb-3">{labels.aboutMissionTitle}</h2>
+        <p className="text">{labels.aboutMissionTitleText}</p>
+      </section>
+      <section className="my-5">
+        <h2 className="mb-3">Developers</h2>
+        <ul>{githubLinks}</ul>
+      </section>
+    </div>
   );
 }
