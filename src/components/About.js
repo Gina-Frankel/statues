@@ -1,8 +1,10 @@
 import React from "react";
-import labels from "../labels";
+import { about } from "../labels";
 import developers from "../developers";
 
 export function About() {
+  const { heading, mission } = about;
+
   const githubLinks = developers.map((developer) => {
     const githubUrl = "https://github.com/" + developer.githubUsername;
     return (
@@ -11,12 +13,13 @@ export function About() {
       </li>
     );
   });
+
   return (
     <div>
-      <h1 className="display-4 my-5">{labels.aboutHeading}</h1>
+      <h1 className="display-4 my-5">{heading}</h1>
       <section className="my-5">
-        <h2 className="mb-3">{labels.aboutMissionTitle}</h2>
-        <p className="text">{labels.aboutMissionTitleText}</p>
+        <h2 className="mb-3">{mission.title}</h2>
+        <p className="text">{mission.text}</p>
       </section>
       <section className="my-5">
         <h2 className="mb-3">Developers</h2>
