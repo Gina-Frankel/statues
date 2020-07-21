@@ -1,5 +1,7 @@
 const developers = [
-  { name: "Harry Turnbull", githubName: "hturnbull93" },
-  { name: "Gina Frankel", githubName: "gina-frankel" },
-  { name: "Sophia Bell", githubName: "kittaru87" },
+  { name: "Harry Turnbull", githubUsername: "hturnbull93" },
+  { name: "Gina Frankel", githubUsername: "gina-frankel" },
+  { name: "Sophia Bell", githubUsername: "kittaru87" },
 ];
+
+export default developers;
