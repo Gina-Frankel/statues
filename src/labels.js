@@ -5,7 +5,7 @@ const labels = {
   aboutHeading: "About the project",
   aboutMissionTitle: "Why",
   aboutMissionTitleText:
-    "Recently a statue of Edward Colston was removed by protesters and sent into the sea. We had never known there was statue in Bristol of a slave trader. This made us realise that we walk past all this public art and have no idea about the people they represent and if these celebrated people represent values that we share. We want people to have a deeper understanding of the art that surrounds them, and have an opportunity to reflect on the values represented by the statue , the artist and if these values have a place in our cultural identity.",
+    "We created this project to enable people to learn about slavery through examining public art in England. The project seeks to provide information about statues that represent people involved in slavery. Through looking at these people in more detail an understanding about the time-scale of slavery, and the context and values which enabled slavery can be built. Although slavery is abolished pieces of the past still exist today."
   aboutDataTitle: "Data Collection",
   aboutData: "Pyhton blah blah",
   aboutFrontEndTitle: "Front End",
