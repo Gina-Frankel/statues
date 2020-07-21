@@ -9,6 +9,7 @@ export class StatueRoutes extends Component {
       const { name, statueId } = statue;
       const slug = `${name.replace(/\s/g, "-")}-${statueId}`;
       const url = `/StatueDetailContainer/${slug}`;
+
       return (
         <Route key={index} path={url}>
           <StatueDetailContainer statue={statue} />
