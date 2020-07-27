@@ -1,5 +1,6 @@
 const slaversStatueList = [
   {
+    statueId: 1,
     name: "William Penn",
     wikiArticleURI: "https://en.wikipedia.org/wiki/William_Penn",
     artworkTitle: "William Penn",
@@ -7,6 +8,7 @@ const slaversStatueList = [
     artworkArtist: "Eli Johnson (1850â1881)",
   },
   {
+    statueId: 2,
     name: "William Penn",
     wikiArticleURI: "https://en.wikipedia.org/wiki/William_Penn",
     artworkTitle: "William Penn",
@@ -14,6 +16,7 @@ const slaversStatueList = [
     artworkArtist: "Eli Johnson (1850â1881)",
   },
   {
+    statueId: 1,
     name: "Adam Sedgwick",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Adam_Sedgwick",
     artworkTitle: "Adam Sedgwick (1785â1873)",
@@ -22,6 +25,7 @@ const slaversStatueList = [
     artworkArtist: "Thomas Woolner (1825â1892)",
   },
   {
+    statueId: 2,
     name: "Adam Sedgwick",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Adam_Sedgwick",
     artworkTitle: "Adam Sedgwick (1785â1873)",
@@ -30,6 +34,7 @@ const slaversStatueList = [
     artworkArtist: "Henry Weekes I (1807â1877)",
   },
   {
+    statueId: 1,
     name: "Augustus Caesar",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Augustus_Caesar",
     artworkTitle: "Caesar Augustus (63 BCâ14 AD)",
@@ -38,6 +43,7 @@ const slaversStatueList = [
     artworkArtist: "Leone Clerici (active 1875)",
   },
   {
+    statueId: 1,
     name: "Charles McGarel",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Charles_McGarel",
     artworkTitle: "Charles McGarel (1788â1876)",
@@ -46,6 +52,7 @@ const slaversStatueList = [
     artworkArtist: "Hamo Thornycroft (1850â1925)",
   },
   {
+    statueId: 1,
     name: "Demosthenes",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Demosthenes",
     artworkTitle: "Demosthenes",
@@ -53,6 +60,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 2,
     name: "Demosthenes",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Demosthenes",
     artworkTitle: "Demosthenes (384 BCâ322 BC)",
@@ -62,6 +70,7 @@ const slaversStatueList = [
       "Filippo Albacini (1777â1858) and Carlo Albacini (1734â1813)",
   },
   {
+    statueId: 3,
     name: "Demosthenes",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Demosthenes",
     artworkTitle: "Demosthenes (c.384 BCâ322 BC)",
@@ -70,6 +79,7 @@ const slaversStatueList = [
     artworkArtist: "British (English) School",
   },
   {
+    statueId: 1,
     name: "Edward Colston",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Edward_Colston",
     artworkTitle: "Edward Colston (1636â1721)",
@@ -78,6 +88,7 @@ const slaversStatueList = [
     artworkArtist: "John Michael Rysbrack (1694â1770)",
   },
   {
+    statueId: 2,
     name: "Edward Colston",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Edward_Colston",
     artworkTitle: "Edward Colston (1636â1721)",
@@ -86,6 +97,7 @@ const slaversStatueList = [
     artworkArtist: "John Cassidy (1860â1939)",
   },
   {
+    statueId: 3,
     name: "Edward Colston",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Edward_Colston",
     artworkTitle: "Edward Colston (1636â1721)",
@@ -94,6 +106,7 @@ const slaversStatueList = [
     artworkArtist: "Coalbrookdale and John Cassidy (1860â1939)",
   },
   {
+    statueId: 1,
     name: "Horace",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Horace",
     artworkTitle: "Horace",
@@ -101,6 +114,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 2,
     name: "Horace",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Horace",
     artworkTitle: "Horace",
@@ -108,6 +122,7 @@ const slaversStatueList = [
     artworkArtist: "John Cheere (1709â1787)",
   },
   {
+    statueId: 1,
     name: "William Beckford",
     wikiArticleURI: "https://en.wikipedia.org/wiki/William_Beckford_(novelist)",
     artworkTitle: "William Beckford (1760â1844)",
@@ -116,6 +131,7 @@ const slaversStatueList = [
     artworkArtist: "Anne Snow",
   },
   {
+    statueId: 1,
     name: "Sulla",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Sulla",
     artworkTitle: "Sulla (138â78 BC)",
@@ -124,6 +140,7 @@ const slaversStatueList = [
       "Filippo Albacini (1777â1858) and Carlo Albacini (1734â1813)",
   },
   {
+    statueId: 1,
     name: "Pompey",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Pompey",
     artworkTitle: "Pompey (106 BCâ48 BC)",
@@ -133,6 +150,7 @@ const slaversStatueList = [
       "Filippo Albacini (1777â1858) and Carlo Albacini (1734â1813)",
   },
   {
+    statueId: 1,
     name: "Plato",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Plato",
     artworkTitle: "Plato (c.428 BCâc.348 BC)",
@@ -141,6 +159,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 2,
     name: "Plato",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Plato",
     artworkTitle: "Plato",
@@ -148,6 +167,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 3,
     name: "Plato",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Plato",
     artworkTitle: "Plato",
@@ -156,6 +176,7 @@ const slaversStatueList = [
       "Filippo Albacini (1777â1858) and Carlo Albacini (1734â1813)",
   },
   {
+    statueId: 4,
     name: "Plato",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Plato",
     artworkTitle: "Plato",
@@ -163,6 +184,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 5,
     name: "Plato",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Plato",
     artworkTitle: "Plato",
@@ -170,6 +192,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 6,
     name: "Plato",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Plato",
     artworkTitle: "Plato",
@@ -177,6 +200,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 1,
     name: "Nero",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Nero",
     artworkTitle: "Nero (37â68)*",
@@ -184,6 +208,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 2,
     name: "Nero",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Nero",
     artworkTitle: "Nero",
@@ -191,6 +216,7 @@ const slaversStatueList = [
     artworkArtist: "Ercole Rosa (1846â1943)",
   },
   {
+    statueId: 1,
     name: "Julius Caesar",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Julius_Caesar",
     artworkTitle: "Julius Caesar (100 BCâ44 BC)",
@@ -200,6 +226,7 @@ const slaversStatueList = [
       "Filippo Albacini (1777â1858) and Carlo Albacini (1734â1813)",
   },
   {
+    statueId: 2,
     name: "Julius Caesar",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Julius_Caesar",
     artworkTitle: "Julius Caesar (100 BCâ44 BC)",
@@ -208,6 +235,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 3,
     name: "Julius Caesar",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Julius_Caesar",
     artworkTitle: "Julius Caesar (100 BCâ44 BC)",
@@ -216,6 +244,7 @@ const slaversStatueList = [
     artworkArtist: "Domenico Brucciani (1815â1880)",
   },
   {
+    statueId: 4,
     name: "Julius Caesar",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Julius_Caesar",
     artworkTitle: "Julius Caesar (100 BCâ44 BC)",
@@ -224,6 +253,7 @@ const slaversStatueList = [
     artworkArtist: "British School",
   },
   {
+    statueId: 1,
     name: "Hadrian",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Hadrian",
     artworkTitle: "Hadrian",
@@ -231,6 +261,7 @@ const slaversStatueList = [
     artworkArtist: "Ercole Rosa (1846â1943)",
   },
   {
+    statueId: 1,
     name: "George Washington",
     wikiArticleURI: "https://en.wikipedia.org/wiki/George_Washington",
     artworkTitle: "George Washington (1732â1799)",
@@ -239,6 +270,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 2,
     name: "George Washington",
     wikiArticleURI:
       "https://en.wikipedia.org/wiki/George_Washington_and_slavery",
@@ -248,6 +280,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 3,
     name: "George Washington",
     wikiArticleURI: "https://en.wikipedia.org/wiki/George_Washington",
     artworkTitle: "George Washington (1732â1799)",
@@ -257,6 +290,7 @@ const slaversStatueList = [
       "Jean-Antoine Houdon (1741â1828) (posthumous cast) and Gorham Manufacturing Company",
   },
   {
+    statueId: 4,
     name: "George Washington",
     wikiArticleURI:
       "https://en.wikipedia.org/wiki/George_Washington_and_slavery",
@@ -267,6 +301,7 @@ const slaversStatueList = [
       "Jean-Antoine Houdon (1741â1828) (posthumous cast) and Gorham Manufacturing Company",
   },
   {
+    statueId: 5,
     name: "George Washington",
     wikiArticleURI: "https://en.wikipedia.org/wiki/George_Washington",
     artworkTitle: "George Washington (1732â1799)",
@@ -275,6 +310,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 6,
     name: "George Washington",
     wikiArticleURI:
       "https://en.wikipedia.org/wiki/George_Washington_and_slavery",
@@ -284,6 +320,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 7,
     name: "George Washington",
     wikiArticleURI: "https://en.wikipedia.org/wiki/George_Washington",
     artworkTitle: "George Washington (1732â1799)",
@@ -292,6 +329,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 8,
     name: "George Washington",
     wikiArticleURI:
       "https://en.wikipedia.org/wiki/George_Washington_and_slavery",
@@ -301,6 +339,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 1,
     name: "Claudius",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Claudius",
     artworkTitle:
@@ -311,6 +350,7 @@ const slaversStatueList = [
       "Filippo Albacini (1777â1858) and Carlo Albacini (1734â1813)",
   },
   {
+    statueId: 2,
     name: "Claudius",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Claudius",
     artworkTitle: "Claudius (10 BCâAD 54)",
@@ -319,6 +359,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 1,
     name: "Cicero",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Cicero",
     artworkTitle: "Cicero",
@@ -326,6 +367,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 2,
     name: "Cicero",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Cicero",
     artworkTitle: "Cicero (106 BCâ43 BC)",
@@ -334,6 +376,7 @@ const slaversStatueList = [
     artworkArtist: "John Cheere (1709â1787)",
   },
   {
+    statueId: 1,
     name: "Christopher Columbus",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Christopher_Columbus",
     artworkTitle: "Christopher Columbus (1451â1506)",
@@ -342,6 +385,7 @@ const slaversStatueList = [
     artworkArtist: "TomÃ¡s BaÃ±uelos (b.1958)",
   },
   {
+    statueId: 2,
     name: "Christopher Columbus",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Christopher_Columbus",
     artworkTitle: "Christopher Columbus (1451â1506)",
@@ -350,6 +394,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 1,
     name: "Christopher Codrington",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Christopher_Codrington",
     artworkTitle: "Christopher Codrington (1668â1710)",
@@ -358,6 +403,7 @@ const slaversStatueList = [
     artworkArtist: "Henry Cheere (1703â1781)",
   },
   {
+    statueId: 2,
     name: "Christopher Codrington",
     wikiArticleURI:
       "https://en.wikipedia.org/wiki/Christopher_Codrington_(colonial_administrator)",
@@ -367,6 +413,7 @@ const slaversStatueList = [
     artworkArtist: "Henry Cheere (1703â1781)",
   },
   {
+    statueId: 1,
     name: "Augustus Caesar",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Augustus_Caesar",
     artworkTitle: "Augustus Caesar (63 BCâAD 14)",
@@ -375,6 +422,7 @@ const slaversStatueList = [
     artworkArtist: "Ferdinand Barbedienne (1810â1892)",
   },
   {
+    statueId: 2,
     name: "Augustus Caesar",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Augustus_Caesar",
     artworkTitle: "Augustus Caesar (63 BCâAD 14)",
@@ -383,6 +431,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 1,
     name: "Simón Bolívar",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar",
     artworkTitle: "Simon Bolivar (1783â1830)",
@@ -391,6 +440,7 @@ const slaversStatueList = [
     artworkArtist: "Hugo Daini (1919â1976)",
   },
   {
+    statueId: 1,
     name: "Robert Clayton",
     wikiArticleURI:
       "https://en.wikipedia.org/wiki/Robert_Clayton_(City_of_London_MP)",
@@ -400,6 +450,7 @@ const slaversStatueList = [
     artworkArtist: "Grinling Gibbons (1648â1721)",
   },
   {
+    statueId: 2,
     name: "Hadrian",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Hadrian",
     artworkTitle: "Hadrianus (AD 76âAD 138)",
@@ -408,6 +459,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 5,
     name: "Julius Caesar",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Julius_Caesar",
     artworkTitle: "Gaius Julius Caesar (100 BCâ44 BC)",
@@ -416,6 +468,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 1,
     name: "Benjamin Franklin",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Benjamin_Franklin",
     artworkTitle: "Benjamin Franklin (1706â1790)",
@@ -424,6 +477,7 @@ const slaversStatueList = [
     artworkArtist: "unknown artist",
   },
   {
+    statueId: 2,
     name: "Benjamin Franklin",
     wikiArticleURI: "https://en.wikipedia.org/wiki/Benjamin_Franklin",
     artworkTitle: "Benjamin Franklin (1706â1790)",

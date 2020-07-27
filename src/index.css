@@ -8,3 +8,7 @@ body {
   src: url("./fonts/edosz.ttf");
   src: local("Edo-sz"), url("./fonts/edosz.ttf") format("truetype");
 }
+
+.text {
+  max-width: 70ch;
+}

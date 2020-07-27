@@ -1,7 +1,7 @@
 import React from "react";
-import { Hero, NavContainer, StatueRoutes } from "./index.js";
+import { Hero, NavContainer, StatueRoutes, About } from "./index.js";
 import { StatueMenuContainer } from "./StatueMenuContainer.js";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./App.css";
 import "../index.css";
@@ -10,22 +10,25 @@ import "./index.js";
 function App() {
   return (
     <div className="app">
-      <header className="App-header">
-        <NavContainer />
-      </header>
-      <div>
+      <Router>
+        <header className="App-header">
+          <NavContainer />
+        </header>
         <div className="container">
-          <div className="row justify-content-end">
-            <Hero />
-          </div>
-          <Router>
-            <div className="row justify-content-between mt-3">
-              <StatueMenuContainer />
-              <StatueRoutes />
-            </div>
-          </Router>
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/">
+              <Hero />
+              <div className="row justify-content-between mt-3">
+                <StatueMenuContainer />
+                <StatueRoutes />
+              </div>
+            </Route>
+          </Switch>
         </div>
-      </div>
+      </Router>
     </div>
   );
 }
