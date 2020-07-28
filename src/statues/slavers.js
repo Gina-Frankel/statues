@@ -1,4 +1,6 @@
 import georgeWashington from "../static/statueImages/george_washington_3.jpg";
+import robertClaytonImage from "../static/statueImages/robert_clayton.jpg";
+import benjaminFranklinImage from "../static/statueImages/benjamin_franklin_2.jpg";
 
 const slaversStatueList = [
   // {
@@ -152,18 +154,18 @@ const slaversStatueList = [
   //   slaverSummary: "",
   //   artworkSummary: "",
   // },
-  // {
-  //   statueId: 1,
-  //   name: "William Beckford",
-  //   wikiArticleURI: "https://en.wikipedia.org/wiki/William_Beckford_(novelist)",
-  //   artworkTitle: "William Beckford (1760â1844)",
-  //   artworkURI:
-  //     "https://artuk.org/discover/artworks/william-beckford-17601844-263006/",
-  //   artworkArtist: "Anne Snow",
-  //   slaverSummary:
-  //     "William Beckford (1760 -1844) was a famous writer and collector. He inherited one of the greatest individual fortunes in England. His wealth was a result of numerous sugar plantations in Jamaica and the forced labour of  more than a 1000 African slaves on these plantations. The families connection with slavery began in 1661 when Peter Beckford, William Beckford’s great grandfather travelled to Jamaica in search of wealth. Here he started to amass political power, land and slaves. On his death he had £1.5. million in the bank, 20 estates and 1200 slaves. His son, also Peter Beckford continued building the plantations and amassing slaves. On his death he was in ownership of 1737 slaves.\n Alderman Beckford, the son of Peter Beckford and father of William Beckford strove to raise the social standing of the Beckford family in England. He was involved in politics and was an Alderman and later a Lord Mayer (1762) of London. He used his political power to influence trade and colonial polices. As an absentee planter, he ruled with brutal force. In 1970 there was a slave rebellion. Over 400 slaves were killed and the leader of the rebellion was burnt alive.\nWilliam Beckford, was 10 when he inherited all his families legacy including at 1356 slaves. Beckford was minimally involved in the running of the Jamaican plantations. However he was very happy to spent the plantation profits. He used the money on a vast collection of  books, furniture, objects and art; and on building extravagant architecture structures which included Fronthill Abbey, a large Gothic Revival country house and Landown Tower. Following the abolition of slavery in 1838 Beckford received financial compensation, which he used to add to his collection.",
-  //   artworkSummary: "",
-  // },
+  {
+    statueId: 1,
+    name: "William Beckford",
+    wikiArticleURI: "https://en.wikipedia.org/wiki/William_Beckford_(novelist)",
+    artworkTitle: "William Beckford (1760â1844)",
+    artworkURI:
+      "https://artuk.org/discover/artworks/william-beckford-17601844-263006/",
+    artworkArtist: "Anne Snow",
+    slaverSummary:
+      "William Beckford (1760 -1844) was a famous writer and collector. He inherited one of the greatest individual fortunes in England. His wealth was a result of numerous sugar plantations in Jamaica and the forced labour of  more than a 1000 African slaves on these plantations. The families connection with slavery began in 1661 when Peter Beckford, William Beckford’s great grandfather travelled to Jamaica in search of wealth. Here he started to amass political power, land and slaves. On his death he had £1.5. million in the bank, 20 estates and 1200 slaves. His son, also Peter Beckford continued building the plantations and amassing slaves. On his death he was in ownership of 1737 slaves.\n Alderman Beckford, the son of Peter Beckford and father of William Beckford strove to raise the social standing of the Beckford family in England. He was involved in politics and was an Alderman and later a Lord Mayer (1762) of London. He used his political power to influence trade and colonial polices. As an absentee planter, he ruled with brutal force. In 1970 there was a slave rebellion. Over 400 slaves were killed and the leader of the rebellion was burnt alive.\nWilliam Beckford, was 10 when he inherited all his families legacy including at 1356 slaves. Beckford was minimally involved in the running of the Jamaican plantations. However he was very happy to spent the plantation profits. He used the money on a vast collection of  books, furniture, objects and art; and on building extravagant architecture structures which included Fronthill Abbey, a large Gothic Revival country house and Landown Tower. Following the abolition of slavery in 1838 Beckford received financial compensation, which he used to add to his collection.",
+    artworkSummary: "",
+  },
   // {
   //   statueId: 1,
   //   name: "Sulla",
@@ -548,20 +550,21 @@ const slaversStatueList = [
   //   slaverSummary: "",
   //   artworkSummary: "",
   // },
-  // {
-  //   statueId: 1,
-  //   name: "Robert Clayton",
-  //   wikiArticleURI:
-  //     "https://en.wikipedia.org/wiki/Robert_Clayton_(City_of_London_MP)",
-  //   artworkTitle: "Sir Robert Clayton (1629â1707)",
-  //   artworkURI:
-  //     "https://artuk.org/discover/artworks/sir-robert-clayton-16291707-271729/",
-  //   artworkArtist: "Grinling Gibbons (1648â1721)",
-  //   slaverSummary:
-  //     "Sir Robert Clayton (1629–1707) was a British merchant banker, politician and Lord Mayor of London.  Clayton was a major player in the early development of the slave trade and the Atlantic slave-economy. Clayton  was on the Court of Assistants (the management board) of the Royal African Company. The Royal African Company shipped more African slaves to the Americas than any other institution in the history of the Atlantic slave trade.",
-  //   artworkSummary:
-  //     "Sir Robert Clayton was a benefactor to St Thomas’s hospital and served as its president, and hence a statue was put up of him at the entrance of hospital. The hospital on 11 June 2020, announced that statue was to be removed due to his involvement with the slavery.",
-  // },
+  {
+    statueId: 1,
+    name: "Robert Clayton",
+    wikiArticleURI:
+      "https://en.wikipedia.org/wiki/Robert_Clayton_(City_of_London_MP)",
+    artworkTitle: "Sir Robert Clayton (1629â1707)",
+    artworkURI:
+      "https://artuk.org/discover/artworks/sir-robert-clayton-16291707-271729/",
+    artworkArtist: "Grinling Gibbons (1648â1721)",
+    slaverSummary:
+      "Sir Robert Clayton (1629–1707) was a British merchant banker, politician and Lord Mayor of London.  Clayton was a major player in the early development of the slave trade and the Atlantic slave-economy. Clayton  was on the Court of Assistants (the management board) of the Royal African Company. The Royal African Company shipped more African slaves to the Americas than any other institution in the history of the Atlantic slave trade.",
+    artworkSummary:
+      "Sir Robert Clayton was a benefactor to St Thomas’s hospital and served as its president, and hence a statue was put up of him at the entrance of hospital. The hospital on 11 June 2020, announced that statue was to be removed due to his involvement with the slavery.",
+    image: robertClaytonImage,
+  },
   // {
   //   statueId: 2,
   //   name: "Hadrian",
@@ -592,20 +595,23 @@ const slaversStatueList = [
   //   artworkURI:
   //     "https://artuk.org/discover/artworks/benjamin-franklin-17061790-252386/",
   //   artworkArtist: "unknown artist",
-  //   slaverSummary: "",
+  //   slaverSummary:
+  //     "Benjamin Franklin (1706- 1790) was one of the Founding Father’s of the United States, and was also an inventor and scientist, who was for his discoveries and theories regarding electricity. \n As a young man Franklin owned slaves, and his newspaper the Pennsylvania Gazette, advertised slaves for sale.  However in his later years, he became vocal as an abolitionist. In 1787 he began to serve as President of the Pennsylvania Society for Promoting the Abolition of Slavery. In 1789 he wrote and published essays calling for the abolition of slavery. His last political act was to send to Congress a petition on behalf of his Society asking for the emancipation of slavery and an end to the slave trade. The petition was denounced on the basis that the Constitution restrains any prohibition on trade and emancipation. ",
   //   artworkSummary: "",
   // },
-  // {
-  //   statueId: 2,
-  //   name: "Benjamin Franklin",
-  //   wikiArticleURI: "https://en.wikipedia.org/wiki/Benjamin_Franklin",
-  //   artworkTitle: "Benjamin Franklin (1706â1790)",
-  //   artworkURI:
-  //     "https://artuk.org/discover/artworks/benjamin-franklin-17061790-249118/",
-  //   artworkArtist: "unknown artist",
-  //   slaverSummary: "",
-  //   artworkSummary: "",
-  // },
+  {
+    statueId: 2,
+    name: "Benjamin Franklin",
+    wikiArticleURI: "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+    artworkTitle: "Benjamin Franklin (1706â1790)",
+    artworkURI:
+      "https://artuk.org/discover/artworks/benjamin-franklin-17061790-249118/",
+    artworkArtist: "unknown artist",
+    slaverSummary:
+      "Benjamin Franklin (1706- 1790) was one of the Founding Father’s of the United States, and was also an inventor and scientist, who was for his discoveries and theories regarding electricity. \n As a young man Franklin owned slaves, and his newspaper the Pennsylvania Gazette, advertised slaves for sale.  However in his later years, he became vocal as an abolitionist. In 1787 he began to serve as President of the Pennsylvania Society for Promoting the Abolition of Slavery. In 1789 he wrote and published essays calling for the abolition of slavery. His last political act was to send to Congress a petition on behalf of his Society asking for the emancipation of slavery and an end to the slave trade. The petition was denounced on the basis that the Constitution restrains any prohibition on trade and emancipation. ",
+    artworkSummary: "",
+    image: benjaminFranklinImage,
+  },
 ];
 
 export default slaversStatueList;
