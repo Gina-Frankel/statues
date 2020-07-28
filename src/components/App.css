@@ -9,14 +9,17 @@ h1 {
 }
 
 h2 {
-  font-family: "Edo-sz"
+  font-family: "Edo-sz";
 }
-
-
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.paragraphs {
+  white-space: pre-line;
+  text-align: justify;
 }
 /* 
 .hero {
