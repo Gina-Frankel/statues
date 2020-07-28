@@ -25,7 +25,7 @@ export class StatueDetails extends Component {
           </a>
         </div>
         <div className="col-sm-12 col-md-7 ">
-          <p>{slaverSummary}</p>
+          <p className="paragraphs">{slaverSummary} </p>
           More Information about {name} can be found at:{" "}
           <a
             href={wikiArticleURI}
