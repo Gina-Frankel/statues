@@ -4,3 +4,4 @@ export { NavContainer } from "./NavContainer";
 export { StatueDetailContainer } from "./StatueDetailContainer";
 export { StatueMenuContainer } from "./StatueMenuContainer";
 export { StatueRoutes } from "./StatueRoutes";
+export { StatueDetails } from "./StatueDetails";
