@@ -6,7 +6,7 @@ export function StatueMenuItem(props) {
   const { name, statueId } = props.value;
 
   const nameNoSpaces = `${name.replace(/\s/g, "-")}-${statueId}`;
-  const statueUrl = "/StatueDetailContainer/" + nameNoSpaces;
+  const statueUrl = "/Statue/" + nameNoSpaces;
 
   return (
     <li className={style.li}>

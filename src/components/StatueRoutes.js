@@ -8,7 +8,7 @@ export class StatueRoutes extends Component {
     const newRoute = SlaverStatueList.map((statue, index) => {
       const { name, statueId } = statue;
       const slug = `${name.replace(/\s/g, "-")}-${statueId}`;
-      const url = `/StatueDetailContainer/${slug}`;
+      const url = `/Statue/${slug}`;
 
       return (
         <Route key={index} path={url}>
