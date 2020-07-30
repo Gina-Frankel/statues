@@ -18,10 +18,18 @@ export function NavContainer() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="ml-auto navbar-nav">
-            <Link to="/about">About</Link>
-            <Link to="/">Statues</Link>
-          </div>
+          <ul className="ml-auto navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/">
+                Statues
+              </Link>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
